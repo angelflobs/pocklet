@@ -1,0 +1,645 @@
+
+header {
+    height: 136px;
+}
+section{
+    position: relative;
+}
+section.invesment {
+    margin: 10px 0px;
+    height: auto;
+}
+section.invesment::after,
+section.form::after,
+section.realEstate::after,
+section.funding::after
+ { 
+    content: "";
+    position: absolute;
+    width: 150px;
+    left: 0.62%;
+    right: 77.1%;
+    top: 45.41%;
+    bottom: 23.27%;
+    background: #FFFFFF;
+    -webkit-filter: blur(90px);
+            filter: blur(90px);
+    z-index: -99;
+}
+
+section.invesment::before,
+section.form::before,
+section.realEstate::before,
+section.funding::before{ 
+    content: "";
+    position: absolute;
+    width: 150px;
+    right: 0%;
+    top: 0%;
+    bottom: 68.68%;
+    background: #FFFFFF;
+    -webkit-filter: blur(90px);
+            filter: blur(90px);
+    z-index: -99;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+ul,li{
+    text-transform: none;
+}
+button {
+    border: 20px;
+}
+
+.btn-primary {
+    border-color: #D0A144;
+    border-radius: 20px;
+    background-color: #DCBF5B;
+}
+.btn-primary:hover {
+    border-color: #D0A144;
+    border-radius: 20px;
+    background-color: #DCBF5B;
+}
+.icons_invesment {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+p.text_button {
+    font-size: .8rem;
+    margin-top: 30px;
+}
+
+i.icon_button {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.invesment-info,
+.card {
+    width: 275px;
+    height: 298px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: #242121;
+    border-radius: 0px 30px;
+    padding: 10px;
+    margin: 20px ;
+    position: relative;
+}
+.invesment-info{
+    width: 275px;
+    height: 211px;
+}
+
+i.icon_estate {
+    color: #DCBF5B;
+    font-size: 4.6em;
+    margin: 10px 0;
+    height: 94px;
+}
+.hover_button{
+    position: absolute;
+    left: 59px;
+    top: 87px;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+}
+.hover_button i{
+    width: 100%;
+    height: auto;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.icon_button {
+    color: #d0a144;
+    font-size: 2em;
+}
+.hover_button .text_button{
+    height: 100%;
+    position: absolute;
+    top: -100px;
+    padding: 10px;
+    color: #fffffff5;
+     
+}
+.hover_button:hover .text_button{
+    top: -30px;
+    left: 25px;
+    background:rgba(30, 28, 28, 0.816);
+    z-index: 99;
+}
+
+
+.charge {
+    height: 100px;
+    width: 100%;
+    background: #DCBF5B;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+}
+h2.title_charge{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #201F1D;
+    line-height: .9;
+    text-align: center;
+}
+
+h4.title2_charge{
+font-size: 1rem;
+font-weight: 800;
+color: #201F1D;
+line-height: .8;
+}
+span.charge_span {
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #f4efef;
+    padding: 0 20px;
+}
+i.charge_num{
+    color: #D0A144;
+    font-size: 1rem;
+    position: absolute;
+    left: 20px;
+}
+/*____________________________________SECTION FORM*/
+input {
+    background-color: transparent!important;
+    border-color: #f5f1f1!important;
+    font-weight: 800;
+    color:#fff!important;
+    border-radius: 50px!important;
+}
+.form-control{
+     color: #fff!important;
+}
+input:hover{
+    border-color: #3f2c05!important;
+    background-color: #15151460!important;
+    
+}
+.form-select{
+    border-radius: 50px!important;
+}
+
+section.form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px;
+    height: auto;
+}
+img.image_form{
+    padding:100px 0;
+}
+/************_______________________Countdown___________________***********/
+.countdown{
+    width: 100%;
+    width: 100%;
+    height: 25vh;
+    background: #DCBF5B;
+    border-radius: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.countdown_content {
+    height: auto;
+    width: 80%;
+}
+
+h2.title_countdown{
+    color: #201F1D;
+    text-align: center;
+    font-weight: 800;
+}
+.tiles {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.countdown_content .tiles>span {
+    width: 20px;
+    max-width: 60px;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+    color: #f4efef;
+    border-radius: 3px;
+    padding: 10px 0;
+    display: inline-block;
+    position: relative;
+}
+
+.countdown_content .labels {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.countdown_content .labels li {
+    width: 70px;
+    font-weight: 800;
+    color: #201F1D;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+section.realEstate {
+    height: auto;
+    margin: 10px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+section.realEstate h1 {
+    margin-top: 20px;
+}
+
+.card {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.cards_realEstate {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+img.realEstate_building {
+    max-width: 100%;
+}
+
+.building {
+    width: 100%;
+    overflow: hidden;
+}
+
+section.funding {
+    height: auto;
+    margin: 10px 0px;
+}
+
+section.funding h2 i {
+    color: #D0A144;
+}
+
+ul.list_funding {
+    width: 95%;
+    padding: 15px;
+}
+
+h1.title_funding{
+    margin: 50px 0;
+}
+
+section.funding {
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.button_funding{
+    background: #DCBF5B;
+    border-radius: 20px;
+    width: 237px;
+    height: 41px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.button_funding:hover{
+    background: #7f6e33;
+}
+p.p_funding {
+    width: 100%;
+    padding: 0px 40px;
+    text-align: left;
+}
+
+h2.funding_title {
+    width: 100%;
+    color: #DCBF5B;
+}
+
+.icon-invesment{
+    color: #DCBF5B;
+    font-size: 4.6em;
+    margin: 10px 0;
+}
+.icon_funding{
+    width: 30px;
+    height: 30px;
+    margin: 10px 0;
+}
+.funding_text{
+    width: 100%;
+    height: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+}
+ 
+.text_charge{
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.text2{
+    height: auto;
+}
+h1.title_formtext{
+    font-size: 2.5rem;
+}
+@media screen and (min-width:1024px) {
+
+    section.invesment {
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: 20px 50px;
+    }
+    span.charge_span {
+        font-size: 5rem;
+    }
+    h2.title_charge{
+        font-size: 3rem;
+    }
+    h4.title2_charge{
+    font-size: 1.8rem;
+    }
+    h1.steps,
+    h2.steps{
+        width: 100%;
+        text-align: left;
+        margin: 20px 50px;
+    }
+    h2.steps{
+    color: #DCBF5B;
+    }
+    
+    .invesment-info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin-right: 10px;
+        position: relative;
+    }
+    .icons_invesment {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        height: auto;
+    }
+    p.text_invesment {
+        font-size: .8rem;
+    }
+  
+    section.realEstate h1 {
+        margin: 0 50px;
+    }
+ 
+    section.form {
+        height: auto;
+        margin: 20px 50px;
+    }
+    .countdown_content {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        width: 500px;
+    }
+    
+    .countdown_content .labels li {
+        width: 102px;
+    }
+    .countdown_content .tiles>span {
+        width: 96px;
+        max-width: 96px;
+    }
+    .cards_realEstate {
+        width: 49%;
+    }
+    section.realEstate {
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        margin: 20px 50px;
+        position: relative;
+    }
+    .card {
+        max-width: 40%;
+        margin: 20px;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    }
+    .card h2 {
+        font-size: 1.2rem;
+    }
+    .card p {
+        font-size: 1rem;
+    }
+    section.funding {
+        height: auto;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+ 
+    li.funding_text {
+        margin-top: 20px;
+    }
+    .cards_realEstate {
+        width: 55%;
+    }
+    .card {
+        text-align: center;
+    }
+    .card p {
+        font-size: .8rem;
+    }
+    .building {
+        width: 45%;
+        min-height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    img.realEstate_building {
+        width: 100%;
+    }
+    p.p_funding {
+        font-size: 1rem;
+
+    }
+    h2.title_realestate{
+        width: 233px;
+        height: 35px;
+    }
+    h2.funding_title{
+        font-size: 2rem;
+        
+    }
+    
+    ul,li{
+        text-transform: none;
+    }
+    .funding_text{
+       
+        height: 120px;
+        
+    }
+}
